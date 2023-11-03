@@ -16,6 +16,7 @@ calcularImc(){
 
 
 }
-const Fernando = new Pessoa(34,70,1.75,'Fernando');
+const fernando = new Pessoa(34,70,1.75,'Fernando');
 
-console.log(Fernando)
+console.log(fernando);
+console.log(fernando.calcularImc());
