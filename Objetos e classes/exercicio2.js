@@ -1,4 +1,4 @@
-/* Crie uma classe para representar pessoas */
+/* Crie uma classe para representar pessoas e calcular seu imc */
 class Pessoa {
     idade;
     peso;
