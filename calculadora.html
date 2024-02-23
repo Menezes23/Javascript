@@ -1,0 +1,35 @@
+\* 1) Crie uma aplicação para efetuar cálculo aritméticos de soma e subtração
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Calculadora</title>
+    <script>
+        var num1 = prompt('Digite um numero')
+        var operacao = prompt('Digite a operação')
+        var num2 = prompt('digite outro numero')
+        function calc(num1, num2, operacao)
+        {
+
+        num1 = parseFloat(num1);
+        num2 = parseFloat(num2);
+        
+        var resultado = 0;
+        
+        if (operacao == 'soma'){
+            resultado = num1 + num2
+        }
+        if (operacao == 'subtracao'){
+            resultado = num1 - num2
+        }
+        
+        return resultado;
+        }
+        document.write( 'O resultado é:' +  calc(num1, num2, operacao) );
+        
+    </script>
+</head>
+<body>
+</body>
